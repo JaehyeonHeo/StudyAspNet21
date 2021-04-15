@@ -1,4 +1,6 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="BoardWrite.aspx.cs" Inherits="DotNetNote.Board.BoardWrite" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" 
+    CodeBehind="BoardWrite.aspx.cs" Inherits="DotNetNote.Board.BoardWrite"
+    ValidateRequest="false" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <h3 class="text-center">게시판 글쓰기</h3>
