@@ -1,5 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
+using Helpers; 
 
 namespace Helpers.Test
 {
@@ -28,12 +29,21 @@ namespace Helpers.Test
             Assert.AreEqual(expected, actual); 
         }
 
+        [Ignore]
         [TestMethod]  //그냥 만들어본 덧셈 메소드 (확인용)
         public void AddTest()
         {
             var expected = 10;
             var actual = (5 + 5);
             Assert.AreEqual(expected, actual); 
+        }
+
+        [TestMethod]
+        public void IsPhotoTest()
+        {
+            var imagePath = @"D:\GitRepository\StudyDesktopApp\WPFApp\main.pdf";
+            bool result = BoardLibrary.IsPhoto(imagePath);
+            Assert.IsFalse(result, "file extension must be png, jpg, gif"); 
         }
     }
 }
