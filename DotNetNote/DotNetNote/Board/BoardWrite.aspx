@@ -11,7 +11,7 @@
               FormType == DotNetNote.Models.BoardWriteFormType.Modify)
             { %>
         <tr>
-            <td class="BoardWriteFormTableLeftStyle">
+            <td style="text-align:right">
                 <span style="color: #ff0000;">*</span>번 호
             </td>
             <td style="width: 500px;">
@@ -98,8 +98,8 @@
                 <span style="color: #aaaaaa; font-style: italic">(Optional)</span>
                 <br />
                 <asp:Panel ID="pnlFile" runat="server" Width="480px"
-                    Visible="false" Height="25px">
-                    <input id="txtFileName" style="width: 290px; height: 19px"
+                    Visible="false" Height="45px">
+                    <input id="txtFileName" style="width: 290px; height: 35px"
                         type="file" name="txtFileName" runat="server">
                     <asp:Label ID="lblFileNamePrevious" Text="" runat="server"
                         Visible="false" />
