@@ -13,7 +13,7 @@
 
 
 
-_____________________
+## 게시판 만들기 코드 보기 
 * [DotNetNote Code](https://github.com/JaehyeonHeo/StudyAspNet21/tree/main/DotNetNote "소스코드") 
 
 ______________________
