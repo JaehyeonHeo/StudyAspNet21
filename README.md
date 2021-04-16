@@ -1,2 +1,5 @@
-# StudyAspNet21
-ASP.NET 학습 리파지토리
+# ✅ StudyAspNet21 ✅
+## ASP.NET으로 웹 게시판 만들기 
+### 🖥 DotNetNote 
+#### <메인화면>
+![MovieFinderApp](WpfMiniProject/MovieFinder.png "MovieFinder")
