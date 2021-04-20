@@ -17,7 +17,7 @@
 * [DotNetNote Code](https://github.com/JaehyeonHeo/StudyAspNet21/tree/main/DotNetNote "소스코드") 
 
 ______________________
-## 🖥 ToDoList (ASP.NET으로 할일 목록 만들기)
+## 📝 ToDoList (ASP.NET으로 할일 목록 만들기)
 #### <메인화면>
 ![ToDoList](https://github.com/JaehyeonHeo/StudyAspNet21/blob/main/MvcSolutions/TodoListWebApp/images/TodoList.png?raw=true "ToDoList")
 
