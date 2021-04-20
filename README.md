@@ -1,6 +1,6 @@
 # ✅ StudyAspNet21 ✅
  
-## 🖥 DotNetNote (ASP.NET으로 웹 게시판 만들기)
+## 🖥 DotNetNote (ASP.NET으로 게시판  만들기)
 #### <메인화면>
 ![DotNetNote](https://github.com/JaehyeonHeo/StudyAspNet21/blob/main/NoteCapture/%EA%B2%8C%EC%8B%9C%ED%8C%90%EB%A9%94%EC%9D%B8.png?raw=true "DotNetNote")
 #### <글 검색 화면>
