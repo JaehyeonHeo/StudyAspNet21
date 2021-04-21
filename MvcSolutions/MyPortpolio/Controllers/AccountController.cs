@@ -42,7 +42,7 @@ namespace MyPortfolio.Controllers
                     return RedirectToAction("Index", "Home"); 
                 }
             }
-            return null; 
+            return View("Login"); 
         }
 
         private Account CheckAccount(string email, string password)
