@@ -1,23 +1,16 @@
-﻿@{
+﻿@model MyPortfolio.Models.Account
+
+@{
     ViewData["Title"] = "Login";
     Layout = "~/Views/Shared/_LoginLayout.cshtml";
 }
-
 <div class="col-lg-4 col-md-6 ml-auto mr-auto">
     <div class="card card-login">
-        <form class="form" method="" action="">
+        <form class="form" asp-action="Login">
             <div class="card-header card-header-primary text-center">
                 <h4 class="card-title">Login</h4>
                 <div class="social-line">
-                    @*<a href="#pablo" class="btn btn-just-icon btn-link">
-                        <i class="fa fa-facebook-square"></i>
-                    </a>
-                    <a href="#pablo" class="btn btn-just-icon btn-link">
-                        <i class="fa fa-twitter"></i>
-                    </a>
-                    <a href="#pablo" class="btn btn-just-icon btn-link">
-                        <i class="fa fa-google-plus"></i>
-                    </a>*@
+                   
                 </div>
             </div>
             <p class="description text-center">&nbsp;</p>
@@ -28,7 +21,9 @@
                             <i class="material-icons">mail</i>
                         </span>
                     </div>
-                    <input type="email" class="form-control" placeholder="Email">
+
+                    <input type="email" class="form-control" placeholder="Email" asp-for="Email">
+                    <span asp-validation-for="Email" class="text-danger"></span>
                 </div>
                 <div class="input-group">
                     <div class="input-group-prepend">
@@ -36,12 +31,27 @@
                             <i class="material-icons">lock_outline</i>
                         </span>
                     </div>
-                    <input type="password" class="form-control" placeholder="Password">
+
+                    <input type="password" class="form-control" placeholder="Password" asp-for="Password">
+                    <span asp-validation-for="Password" class="text-danger"></span>
                 </div>
             </div>
-            <div class="footer text-center">
-                <a href="#pablo" class="btn btn-primary btn-link btn-wd btn-lg">Get Started</a>
+            <div class="row">
+                <div class="col-md-4 ml-auto mr-auto text-center">
+                    <button type="submit" class="btn btn-primary btn-raised">
+                        Login
+                    </button>
+                </div>
             </div>
+            <div class="row">
+                <div class="col">
+                    @if (ViewBag.Message != null)
+                    {
+                        <span>@ViewBag.Message</span>
+                    }
+                </div>
+            </div>
+
         </form>
     </div>
 </div>
