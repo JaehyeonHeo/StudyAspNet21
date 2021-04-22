@@ -2,13 +2,10 @@
 using Microsoft.Extensions.Logging;
 using MyPortpolio.Data;
 using MyPortpolio.Models;
-using System;
-using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
-using System.Threading.Tasks;
 
-namespace MyPortpolio.Controllers
+namespace MyPortfolio.Controllers
 {
     public class HomeController : Controller
     {
