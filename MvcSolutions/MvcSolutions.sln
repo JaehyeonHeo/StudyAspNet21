@@ -7,13 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicMvcWebApp", "BasicMvcW
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DbWebApp", "DbWebApp\DbWebApp.csproj", "{3ABAED5D-0829-4F30-859C-656A3DED7DCD}"
 EndProject
-Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "MvcWebLab.DataBase", "MvcWebLab.DataBase\MvcWebLab.DataBase.sqlproj", "{CCAB15FF-ECE9-4F2A-9725-CF25A4FBD02D}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoListWebApp", "TodoListWebApp\TodoListWebApp.csproj", "{67BADC2F-BD32-4645-A8C8-46907B5FF2B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestApiTestApp", "RestApiTestApp\RestApiTestApp.csproj", "{2C26896D-50BD-4329-B496-03185B4EBD42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestApiTestApp", "RestApiTestApp\RestApiTestApp.csproj", "{2C26896D-50BD-4329-B496-03185B4EBD42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyPortfolio", "MyPortpolio\MyPortfolio.csproj", "{1262D688-6E58-4AA8-9B98-D0FFC9BD316A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyPortfolio", "MyPortpolio\MyPortfolio.csproj", "{1262D688-6E58-4AA8-9B98-D0FFC9BD316A}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "TotalDatabase", "TotalDatabase\TotalDatabase.sqlproj", "{5F7D84BB-D861-47BC-B007-663CED377CD3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,12 +29,6 @@ Global
 		{3ABAED5D-0829-4F30-859C-656A3DED7DCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3ABAED5D-0829-4F30-859C-656A3DED7DCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3ABAED5D-0829-4F30-859C-656A3DED7DCD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CCAB15FF-ECE9-4F2A-9725-CF25A4FBD02D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CCAB15FF-ECE9-4F2A-9725-CF25A4FBD02D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CCAB15FF-ECE9-4F2A-9725-CF25A4FBD02D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{CCAB15FF-ECE9-4F2A-9725-CF25A4FBD02D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CCAB15FF-ECE9-4F2A-9725-CF25A4FBD02D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CCAB15FF-ECE9-4F2A-9725-CF25A4FBD02D}.Release|Any CPU.Deploy.0 = Release|Any CPU
 		{67BADC2F-BD32-4645-A8C8-46907B5FF2B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{67BADC2F-BD32-4645-A8C8-46907B5FF2B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67BADC2F-BD32-4645-A8C8-46907B5FF2B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -47,6 +41,12 @@ Global
 		{1262D688-6E58-4AA8-9B98-D0FFC9BD316A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1262D688-6E58-4AA8-9B98-D0FFC9BD316A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1262D688-6E58-4AA8-9B98-D0FFC9BD316A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F7D84BB-D861-47BC-B007-663CED377CD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F7D84BB-D861-47BC-B007-663CED377CD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F7D84BB-D861-47BC-B007-663CED377CD3}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5F7D84BB-D861-47BC-B007-663CED377CD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F7D84BB-D861-47BC-B007-663CED377CD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F7D84BB-D861-47BC-B007-663CED377CD3}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

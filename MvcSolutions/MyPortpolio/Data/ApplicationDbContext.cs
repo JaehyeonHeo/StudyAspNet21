@@ -13,5 +13,6 @@ namespace MyPortpolio.Data
         public DbSet<Contact> Contact { get; set; }
         public DbSet<Account> Account { get; set; }
         public DbSet<Board> Boards { get; set; }
+        public DbSet<MyPortfolio.Models.Manage> Manages { get; set; }
     }
 }
